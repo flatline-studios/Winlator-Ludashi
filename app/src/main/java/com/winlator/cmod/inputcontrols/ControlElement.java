@@ -876,7 +876,7 @@ public class ControlElement {
                 if (mouseMoveMode) {
                     inputControlsView.getTouchpadView().mouseMove(x, y, MotionEvent.ACTION_DOWN);
                     invalidateSelf();
-                    return true;
+//                    return true;
                 }
                 if (isKeepButtonPressedAfterMinTime()) touchTime = System.currentTimeMillis();
                 if (!toggleSwitch || !selected) {
